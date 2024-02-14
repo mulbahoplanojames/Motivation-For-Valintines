@@ -4,6 +4,6 @@
 
 @layer components {
   .card {
-    @apply w-3 md:w-2 lg:w-1 rounded-md py-4 px-2 lg:px-6 bg-1 text-white animate-pulse;
+    @apply w-3 md:w-2 lg:w-1 rounded-md py-4 px-2 lg:px-6 bg-1 text-white lg:animate-pulse;
   }
 }
