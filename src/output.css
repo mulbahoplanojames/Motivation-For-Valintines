@@ -546,16 +546,7 @@ video {
 
 .card {
   width: 330px;
-}
-
-@keyframes pulse {
-  50% {
-    opacity: .5;
-  }
-}
-
-.card {
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  animation: none;
   border-radius: 0.375rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 92 138 / var(--tw-bg-opacity));
@@ -571,11 +562,25 @@ video {
   .card {
     width: 400px;
   }
+
+  @keyframes pulse {
+  }
+
+  .card {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
 }
 
 @media (min-width: 1024px) {
   .card {
     width: 490px;
+  }
+
+  @keyframes pulse {
+  }
+
+  .card {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
