@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun for Valentines</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body>
+    <div
+      class="h-[110vh] md:h-[100vh] lg:h-[100vh] bg-white grid place-items-center px-4"
+      id="wripper"
+    >
+      <div class="card" id="card">
+        <div class="">
+          <input
+            type="text"
+            class="lg:w-3/4 w-2/3 h-14 rounded-lg text-lg px-4 outline-none text-black"
+            placeholder="Enter your name 💻"
+            id="studentName"
+          />
+          <button
+            class="py-3 px-6 rounded-lg bg-white text-xl ml-2 text-black"
+            id="submitBtn"
+          >
+            Click
+          </button>
+        </div>
+        <div>
+          <p id="error" class="px-2 py-3 text-lg"></p>
+          <p id="message" class="py-3 text-xl"></p>
+          <p id="message2" class="text-xl text-center"></p>
+          <p id="emoji" class="pt-6 text-xl animate-bounce text-center"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./src/script.js"></script>
+  </body>
+</html>
